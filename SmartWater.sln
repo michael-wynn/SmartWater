@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartWater", "SmartWater\SmartWater.csproj", "{3A7C93B9-9CB7-46A2-9188-F205FB221A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{958DCE4E-A751-49D0-8DBB-3DDF5E0F0904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Processor", "Processor\Processor.csproj", "{484FC98B-AAD8-455C-903C-8C43122B72FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A7C93B9-9CB7-46A2-9188-F205FB221A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7C93B9-9CB7-46A2-9188-F205FB221A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7C93B9-9CB7-46A2-9188-F205FB221A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7C93B9-9CB7-46A2-9188-F205FB221A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958DCE4E-A751-49D0-8DBB-3DDF5E0F0904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958DCE4E-A751-49D0-8DBB-3DDF5E0F0904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958DCE4E-A751-49D0-8DBB-3DDF5E0F0904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958DCE4E-A751-49D0-8DBB-3DDF5E0F0904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484FC98B-AAD8-455C-903C-8C43122B72FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484FC98B-AAD8-455C-903C-8C43122B72FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484FC98B-AAD8-455C-903C-8C43122B72FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484FC98B-AAD8-455C-903C-8C43122B72FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0499C6C0-07B9-40CD-B854-F58A3164AF38}
+	EndGlobalSection
+EndGlobal

@@ -4,6 +4,7 @@
 - The longest word made up of other words is: **ethylenediaminetetraacetates**
 - The 2nd longest word made up of other words is: **electroencephalographically**
 - The file wordlist.txt contains **97107** such composite words
+- Performance: identify all composite words in **480 milliseconds** on a single core of an Intel i5 processor
 
 ### Architectural Notes
 - Core functionality is provided by class WordAnalyzer.  Its constructor accepts a raw list of strings and does nothing signification.

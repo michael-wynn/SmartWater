@@ -50,8 +50,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\wordlist.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Processor\Processor.csproj">
+      <Project>{484FC98B-AAD8-455C-903C-8C43122B72FF}</Project>
+      <Name>Processor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

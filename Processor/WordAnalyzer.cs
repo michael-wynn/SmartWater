@@ -26,8 +26,15 @@ namespace SmartWater.Processor
         public WordAnalyzer(List<string> words)
         {
             _words = words;
+            /* Although Process must be called in order for the public property AllEntries to be usable,
+             * the call is not included here to avoid having potentially long-running process in constructor
+             * */
         }
 
+        /// <summary>
+        /// This method must be called prior to accessing public property AllEntries
+        /// </summary>
+        /// <returns></returns>
         public Task Process()
         {
             return Task.Run(()=> {
@@ -51,6 +58,9 @@ namespace SmartWater.Processor
             });
         }
 
+        /// <summary>
+        /// This property should only be access AFTER Process method has been called.
+        /// </summary>
         public List<WordEntry> AllEntries => _allEntriesLongToShort;
 
         private bool IsCompositeWord(string candidate, bool targetIsFullWord = true)

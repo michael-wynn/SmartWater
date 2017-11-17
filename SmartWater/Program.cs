@@ -24,7 +24,8 @@ namespace SmartWater
                 Console.Error.WriteLine(ex);
                 returnCode = -1;
             }
-            Console.ReadLine();
+            Console.Write("Press any key to finish");
+            Console.ReadKey();
             return returnCode;
         }
 
